@@ -26,19 +26,13 @@ impl Solution {
 mod tests {
     #[test]
     fn search_matrix() {
-        assert_eq!(
-            super::Solution::search_matrix(
-                vec![vec![1, 3, 5, 7], vec![10, 11, 16, 20], vec![23, 30, 34, 60]],
-                3
-            ),
-            true
-        );
-        assert_eq!(
-            super::Solution::search_matrix(
-                vec![vec![1, 3, 5, 7], vec![10, 11, 16, 20], vec![23, 30, 34, 60]],
-                13
-            ),
-            false
-        );
+        assert!(super::Solution::search_matrix(
+            vec![vec![1, 3, 5, 7], vec![10, 11, 16, 20], vec![23, 30, 34, 60]],
+            3
+        ));
+        assert!(!super::Solution::search_matrix(
+            vec![vec![1, 3, 5, 7], vec![10, 11, 16, 20], vec![23, 30, 34, 60]],
+            13
+        ));
     }
 }

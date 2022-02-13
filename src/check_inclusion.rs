@@ -31,44 +31,41 @@ impl Solution {
 mod tests {
     #[test]
     fn example_problem() {
-        assert_eq!(
-            super::Solution::check_inclusion("a".to_string(), "ab".to_string()),
-            true
-        );
-        assert_eq!(
-            super::Solution::check_inclusion("aa".to_string(), "aa".to_string()),
-            true
-        );
-        assert_eq!(
-            super::Solution::check_inclusion("a".to_string(), "a".to_string()),
-            true
-        );
-        assert_eq!(
-            super::Solution::check_inclusion("a".to_string(), "b".to_string()),
-            false
-        );
-        assert_eq!(
-            super::Solution::check_inclusion("ab".to_string(), "ba".to_string()),
-            true
-        );
-        assert_eq!(
-            super::Solution::check_inclusion("ab".to_string(), "eidbaooo".to_string()),
-            true
-        );
-        assert_eq!(
-            super::Solution::check_inclusion("ab".to_string(), "eidboaoo".to_string()),
-            false
-        );
-        assert_eq!(
-            super::Solution::check_inclusion("fed".to_string(), "abcdefghi".to_string()),
-            true
-        );
-        assert_eq!(
-            super::Solution::check_inclusion(
-                "abcdefghijklmnopqrstuvwxyz".to_string(),
-                "abcdefghijklmnopqrstuvwxyaaaazazzzbcdefghijklmnopqrstuvwxyz".to_string()
-            ),
-            false
-        );
+        assert!(super::Solution::check_inclusion(
+            "a".to_string(),
+            "ab".to_string()
+        ));
+        assert!(super::Solution::check_inclusion(
+            "aa".to_string(),
+            "aa".to_string()
+        ));
+        assert!(super::Solution::check_inclusion(
+            "a".to_string(),
+            "a".to_string()
+        ));
+        assert!(!super::Solution::check_inclusion(
+            "a".to_string(),
+            "b".to_string()
+        ));
+        assert!(super::Solution::check_inclusion(
+            "ab".to_string(),
+            "ba".to_string()
+        ));
+        assert!(super::Solution::check_inclusion(
+            "ab".to_string(),
+            "eidbaooo".to_string()
+        ));
+        assert!(!super::Solution::check_inclusion(
+            "ab".to_string(),
+            "eidboaoo".to_string()
+        ));
+        assert!(super::Solution::check_inclusion(
+            "fed".to_string(),
+            "abcdefghi".to_string()
+        ));
+        assert!(!super::Solution::check_inclusion(
+            "abcdefghijklmnopqrstuvwxyz".to_string(),
+            "abcdefghijklmnopqrstuvwxyaaaazazzzbcdefghijklmnopqrstuvwxyz".to_string()
+        ));
     }
 }
