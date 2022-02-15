@@ -8,6 +8,10 @@ mod k_diff_pairs_in_an_array;
 mod maximum_depth_of_binary_tree;
 #[path = "permutation-in-string.rs"]
 mod permutation_in_string;
+#[path = "remove-duplicates-from-sorted-array.rs"]
+mod remove_duplicates_from_sorted_array;
+#[path = "remove-duplicates-from-sorted-array-ii.rs"]
+mod remove_duplicates_from_sorted_array_ii;
 #[path = "search-a-2d-matrix.rs"]
 mod search_a_2d_matrix;
 #[path = "single-number.rs"]
