@@ -16,5 +16,7 @@ mod single_number;
 mod subarray_sum_equals_k;
 #[path = "subsets.rs"]
 mod subsets;
+#[path = "valid-parentheses.rs"]
+mod valid_parentheses;
 #[path = "word-ladder.rs"]
 mod word_ladder;
