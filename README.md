@@ -7,37 +7,80 @@ Make sure to have rust installed and updated to at least version `1.5.60`. To in
 
 I am using [Visual Studio Code](https://code.visualstudio.com/) with the [rust-analyer](https://marketplace.visualstudio.com/items?itemName=matklad.rust-analyzer&ssr=true) extension.
 
-## Usage
-To add a solution for a new problem like [two-sum](https://leetcode.com/problems/two-sum/) copy `example_problem.rs` into a new file and add the module name to `lib.rs`:
-```bash
-cp src/example_problem.rs src/two_sum.rs
-echo "mod two_sum;" >> src/lib.rs
-```
+## CLI tool leetup 
+LeetCode challenges can be downloaded, tested and submitted using the cli tool [leetup](https://github.com/dragfire/leetup).
 
-Edit `src/two_sum.rs`:
-```rust
-#![allow(dead_code, unused_variables)]
-struct Solution {}
-
-/* Two Sum - https://leetcode.com/problems/two-sum/ */
-
-impl Solution {
-    pub fn two_sum(nums: Vec<i32>, target: i32) -> Vec<i32> {
-        // Solution goes in here
+This is the configuration file that I (`~/.leetup/config.json`), the `work_dir` should be adjusted when copying it.
+```json
+{
+    "pick_hook": {
+        "rust": {
+            "working_dir": "/home/user/Projects/leetcode-rust/src/problems",
+            "script": {
+                "pre_generation": [
+                    "echo '#[path = \"@leetup=problem.rs\"]' >> @leetup=working_dir/mod.rs",
+                    "echo 'mod @leetup=problem;' | tr '-' '_' >> @leetup=working_dir/mod.rs"
+                ],
+                "post_generation": [
+                    "cd @leetup=working_dir && cargo fmt"
+                ]
+            }
+        }
+    },
+    "inject_code": {
+        "rust": {
+            "before_code_exclude": [
+                "// before_code_exclude",
+                "#![allow(dead_code, unused_variables)]",
+                "struct Solution {}"
+            ],
+            "after_code": [
+                "#[cfg(test)]",
+                "mod tests {",
+                "    use super::Solution;",
+                "    #[test]",
+                "    fn example_1() {",
+                "        ",
+                "    }",
+                "}"
+            ]
+        }
     }
 }
+```
 
-#[cfg(test)]
-mod tests {
-    #[test]
-    fn two_sum() {
-        assert_eq!(super::Solution::two_sum(vec![2, 7, 11, 15], 9), vec![0, 1]);
-        assert_eq!(super::Solution::two_sum(vec![3, 2, 4], 6), vec![1, 2]);
-        assert_eq!(super::Solution::two_sum(vec![3, 3], 6), vec![0, 1]);
-    }
-}
-```
-You can run it with:
-```bash
-cargo test two_sum
-```
+After installing `leetup` authenticate your leetcode account and create the configuration file.
+
+The following commands can be used to interact with LeetCode from the CLI:
+
+1. Downloading a challenge by the LeetCode ID: 
+   
+   $ `leetup pick 136`
+
+2. Testing a file remotely for a specific input: 
+   
+   $ `leetup leetup test src/problems/single-number.rs -t "[2,2,1]"`
+
+   Will result in:
+    ```
+    ✔ Accepted
+    Input:
+    [2,2,1]
+
+    Output:
+    1
+
+    Expected:
+    1
+    ```
+
+3. Submitting a problem
+
+    $ `leetup submit src/problems/single-number.rs`
+
+    ```
+    ✔ Accepted
+    61/61 cases passed (7 ms)
+    Your runtime beats 23.2805% of rust submissions
+    Your memory usage beats 25.926% of rust submissions (2.3 MB)
+    ```
