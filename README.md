@@ -10,7 +10,7 @@ I am using [Visual Studio Code](https://code.visualstudio.com/) with the [rust-a
 ## CLI tool leetup 
 LeetCode challenges can be downloaded, tested and submitted using the cli tool [leetup](https://github.com/dragfire/leetup).
 
-This is the configuration file that I (`~/.leetup/config.json`), the `work_dir` should be adjusted when copying it.
+This is the configuration file that I am using (`~/.leetup/config.json`), the `work_dir` should be adjusted when copying it.
 ```json
 {
     "pick_hook": {
