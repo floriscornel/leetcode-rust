@@ -15,11 +15,7 @@ impl Solution {
                 set.insert(num);
             }
         }
-        println!("{:?}", set);
-        for num in set.drain() {
-            return num;
-        }
-        0
+        *set.iter().next().unwrap()
     }
 }
 
