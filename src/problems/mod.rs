@@ -1,5 +1,7 @@
 #[path = "add-digits.rs"]
 mod add_digits;
+#[path = "contiguous-array.rs"]
+mod contiguous_array;
 #[path = "insert-delete-getrandom-o1.rs"]
 mod insert_delete_getrandom_o1;
 #[path = "k-diff-pairs-in-an-array.rs"]
@@ -20,6 +22,8 @@ mod single_number;
 mod subarray_sum_equals_k;
 #[path = "subsets.rs"]
 mod subsets;
+#[path = "swap-nodes-in-pairs.rs"]
+mod swap_nodes_in_pairs;
 #[path = "valid-parentheses.rs"]
 mod valid_parentheses;
 #[path = "word-ladder.rs"]

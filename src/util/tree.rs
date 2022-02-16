@@ -1,6 +1,8 @@
 /**
  * Implementation by aylei and mapx on github.com
  * Source: https://github.com/aylei/leetcode-rust/blob/master/src/util/tree.rs
+ *
+ * Macro Usage: tree![3, 9, 20, null, null, 15, 7]
  */
 use std::cell::RefCell;
 use std::rc::Rc;
