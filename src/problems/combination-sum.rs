@@ -99,7 +99,7 @@ mod tests {
     fn example_1() {
         assert_eq!(
             Solution::combination_sum(vec![2, 3, 6, 7], 7),
-            vec![vec![2, 2, 3], vec![7]]
+            vec![vec![7], vec![2, 2, 3]]
         );
     }
 
@@ -107,13 +107,16 @@ mod tests {
     fn example_2() {
         assert_eq!(
             Solution::combination_sum(vec![2, 3, 5], 8),
-            vec![vec![2, 2, 2, 2], vec![2, 3, 3], vec![3, 5]]
+            vec![vec![3, 5], vec![2, 3, 3], vec![2, 2, 2, 2]]
         );
     }
 
     #[test]
     fn example_3() {
-        assert_eq!(Solution::combination_sum(vec![2], 1), vec![vec![]]);
+        assert_eq!(
+            Solution::combination_sum(vec![2], 1),
+            Vec::<Vec<i32>>::new()
+        );
     }
 }
 // @leetup=inject:after_code
