@@ -1,5 +1,7 @@
 #[path = "add-digits.rs"]
 mod add_digits;
+#[path = "combination-sum.rs"]
+mod combination_sum;
 #[path = "contiguous-array.rs"]
 mod contiguous_array;
 #[path = "insert-delete-getrandom-o1.rs"]
