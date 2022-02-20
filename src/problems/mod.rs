@@ -10,6 +10,8 @@ mod insert_delete_getrandom_o1;
 mod k_diff_pairs_in_an_array;
 #[path = "maximum-depth-of-binary-tree.rs"]
 mod maximum_depth_of_binary_tree;
+#[path = "minimize-deviation-in-array.rs"]
+mod minimize_deviation_in_array;
 #[path = "permutation-in-string.rs"]
 mod permutation_in_string;
 #[path = "remove-duplicates-from-sorted-array.rs"]
