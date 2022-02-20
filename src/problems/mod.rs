@@ -16,6 +16,8 @@ mod permutation_in_string;
 mod remove_duplicates_from_sorted_array;
 #[path = "remove-duplicates-from-sorted-array-ii.rs"]
 mod remove_duplicates_from_sorted_array_ii;
+#[path = "remove-k-digits.rs"]
+mod remove_k_digits;
 #[path = "search-a-2d-matrix.rs"]
 mod search_a_2d_matrix;
 #[path = "single-number.rs"]
