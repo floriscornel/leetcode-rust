@@ -14,6 +14,8 @@ mod maximum_depth_of_binary_tree;
 mod minimize_deviation_in_array;
 #[path = "permutation-in-string.rs"]
 mod permutation_in_string;
+#[path = "remove-covered-intervals.rs"]
+mod remove_covered_intervals;
 #[path = "remove-duplicates-from-sorted-array.rs"]
 mod remove_duplicates_from_sorted_array;
 #[path = "remove-duplicates-from-sorted-array-ii.rs"]
