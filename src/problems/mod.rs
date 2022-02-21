@@ -8,6 +8,8 @@ mod contiguous_array;
 mod insert_delete_getrandom_o1;
 #[path = "k-diff-pairs-in-an-array.rs"]
 mod k_diff_pairs_in_an_array;
+#[path = "majority-element.rs"]
+mod majority_element;
 #[path = "maximum-depth-of-binary-tree.rs"]
 mod maximum_depth_of_binary_tree;
 #[path = "minimize-deviation-in-array.rs"]
