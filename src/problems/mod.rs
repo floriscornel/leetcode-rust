@@ -4,6 +4,8 @@ mod add_digits;
 mod combination_sum;
 #[path = "contiguous-array.rs"]
 mod contiguous_array;
+#[path = "excel-sheet-column-number.rs"]
+mod excel_sheet_column_number;
 #[path = "insert-delete-getrandom-o1.rs"]
 mod insert_delete_getrandom_o1;
 #[path = "k-diff-pairs-in-an-array.rs"]
