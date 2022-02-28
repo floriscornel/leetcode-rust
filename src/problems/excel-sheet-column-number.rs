@@ -74,6 +74,7 @@ mod tests {
         assert_eq!(Solution::title_to_number("AA".to_string()), 27);
         assert_eq!(Solution::title_to_number("AB".to_string()), 28);
         assert_eq!(Solution::title_to_number("ZZ".to_string()), 702);
+        assert_eq!(Solution::title_to_number("FXSHRXW".to_string()), 2147483647);
     }
 }
 // @leetup=inject:after_code

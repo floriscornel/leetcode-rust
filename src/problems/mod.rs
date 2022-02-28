@@ -34,6 +34,8 @@ mod single_number;
 mod subarray_sum_equals_k;
 #[path = "subsets.rs"]
 mod subsets;
+#[path = "summary-ranges.rs"]
+mod summary_ranges;
 #[path = "swap-nodes-in-pairs.rs"]
 mod swap_nodes_in_pairs;
 #[path = "valid-parentheses.rs"]
