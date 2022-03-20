@@ -49,12 +49,8 @@ struct Solution {}
 // @leetup=inject:before_code_ex
 
 // @leetup=code
-use std::collections::HashMap;
-
 impl Solution {
-    // Returns the number of flips required make all elements in a equal to n
-    // If a conflict is detected it returns None
-    fn domino_rotations(a: &[i32], b: &[i32], n: i32) -> Option<i32> {
+    fn solve(a: &[i32], b: &[i32], n: i32) -> Option<i32> {
         let mut flips = 0;
         for index in 0..a.len() {
             if a[index] != n {
@@ -69,38 +65,21 @@ impl Solution {
     }
 
     pub fn min_domino_rotations(tops: Vec<i32>, bottoms: Vec<i32>) -> i32 {
-        // Count all values of tops and bottoms in a HashMap
-        // Uses (+key, count) for tops and (-key, count) for bottoms
-        let mut counts = HashMap::new();
-        for index in 0..tops.len() {
-            let a = counts.entry(tops[index]).or_insert(0);
-            *a += 1;
-            let b = counts.entry(-bottoms[index]).or_insert(0);
-            *b += 1;
-        }
         let mut solutions = Vec::new();
-        for (key, found_count) in &counts {
-            // Check if input was already in correct state
-            if *found_count == tops.len() {
-                return 0;
-            }
-            if let Some(other_count) = counts.get(&(-(*key))) {
-                if found_count >= other_count && found_count + *other_count >= tops.len() {
-                    // Solutions can only exist if the top_count + bottom_count >= length
-                    let a = if *key > 0 { &tops } else { &bottoms };
-                    let b = if *key > 0 { &bottoms } else { &tops };
-                    // If a solution is found we add it to the vector
-                    if let Some(solution) = Solution::domino_rotations(a, b, i32::abs(*key)) {
-                        solutions.push(solution);
-                    }
-                }
-            }
+        if let Some(solution) = Solution::solve(&tops, &bottoms, tops[0]) {
+            solutions.push(solution);
         }
-        if solutions.is_empty() {
-            -1
-        } else {
-            *solutions.iter().min().unwrap()
+        if let Some(solution) = Solution::solve(&bottoms, &tops, bottoms[0]) {
+            solutions.push(solution);
         }
+        if let Some(solution) = Solution::solve(&tops, &bottoms, bottoms[0]) {
+            solutions.push(solution);
+        }
+        if let Some(solution) = Solution::solve(&bottoms, &tops, tops[0]) {
+            solutions.push(solution);
+        }
+
+        *solutions.iter().min().unwrap_or(&-1)
     }
 }
 // @leetup=code
