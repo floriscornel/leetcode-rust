@@ -59,7 +59,7 @@ The following commands can be used to interact with LeetCode from the CLI:
 
 2. Testing a file remotely for a specific input: 
    
-   $ `leetup leetup test src/problems/single-number.rs -t "[2,2,1]"`
+   $ `leetup test src/problems/single-number.rs -t "[2,2,1]"`
 
    Will result in:
     ```
