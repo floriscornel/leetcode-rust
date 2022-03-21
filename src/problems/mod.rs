@@ -4,6 +4,8 @@ mod add_digits;
 mod combination_sum;
 #[path = "contiguous-array.rs"]
 mod contiguous_array;
+#[path = "excel-sheet-column-number.rs"]
+mod excel_sheet_column_number;
 #[path = "insert-delete-getrandom-o1.rs"]
 mod insert_delete_getrandom_o1;
 #[path = "k-diff-pairs-in-an-array.rs"]
@@ -14,6 +16,10 @@ mod majority_element;
 mod maximum_depth_of_binary_tree;
 #[path = "minimize-deviation-in-array.rs"]
 mod minimize_deviation_in_array;
+#[path = "minimum-domino-rotations-for-equal-row.rs"]
+mod minimum_domino_rotations_for_equal_row;
+#[path = "partition-labels.rs"]
+mod partition_labels;
 #[path = "permutation-in-string.rs"]
 mod permutation_in_string;
 #[path = "remove-covered-intervals.rs"]
@@ -26,12 +32,16 @@ mod remove_duplicates_from_sorted_array_ii;
 mod remove_k_digits;
 #[path = "search-a-2d-matrix.rs"]
 mod search_a_2d_matrix;
+#[path = "simplify-path.rs"]
+mod simplify_path;
 #[path = "single-number.rs"]
 mod single_number;
 #[path = "subarray-sum-equals-k.rs"]
 mod subarray_sum_equals_k;
 #[path = "subsets.rs"]
 mod subsets;
+#[path = "summary-ranges.rs"]
+mod summary_ranges;
 #[path = "swap-nodes-in-pairs.rs"]
 mod swap_nodes_in_pairs;
 #[path = "valid-parentheses.rs"]
