@@ -16,6 +16,10 @@ mod majority_element;
 mod maximum_depth_of_binary_tree;
 #[path = "minimize-deviation-in-array.rs"]
 mod minimize_deviation_in_array;
+#[path = "minimum-domino-rotations-for-equal-row.rs"]
+mod minimum_domino_rotations_for_equal_row;
+#[path = "partition-labels.rs"]
+mod partition_labels;
 #[path = "permutation-in-string.rs"]
 mod permutation_in_string;
 #[path = "remove-covered-intervals.rs"]
