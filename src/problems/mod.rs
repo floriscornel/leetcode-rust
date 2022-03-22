@@ -38,6 +38,8 @@ mod search_a_2d_matrix;
 mod simplify_path;
 #[path = "single-number.rs"]
 mod single_number;
+#[path = "smallest-string-with-a-given-numeric-value.rs"]
+mod smallest_string_with_a_given_numeric_value;
 #[path = "subarray-sum-equals-k.rs"]
 mod subarray_sum_equals_k;
 #[path = "subsets.rs"]
