@@ -1,5 +1,7 @@
 #[path = "add-digits.rs"]
 mod add_digits;
+#[path = "broken-calculator.rs"]
+mod broken_calculator;
 #[path = "combination-sum.rs"]
 mod combination_sum;
 #[path = "contiguous-array.rs"]
