@@ -52,6 +52,8 @@ mod subsets;
 mod summary_ranges;
 #[path = "swap-nodes-in-pairs.rs"]
 mod swap_nodes_in_pairs;
+#[path = "two-city-scheduling.rs"]
+mod two_city_scheduling;
 #[path = "valid-parentheses.rs"]
 mod valid_parentheses;
 #[path = "word-ladder.rs"]
