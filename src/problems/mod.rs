@@ -1,5 +1,7 @@
 #[path = "add-digits.rs"]
 mod add_digits;
+#[path = "binary-search.rs"]
+mod binary_search;
 #[path = "boats-to-save-people.rs"]
 mod boats_to_save_people;
 #[path = "broken-calculator.rs"]
