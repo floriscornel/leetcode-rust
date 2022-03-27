@@ -54,6 +54,8 @@ mod subsets;
 mod summary_ranges;
 #[path = "swap-nodes-in-pairs.rs"]
 mod swap_nodes_in_pairs;
+#[path = "the-k-weakest-rows-in-a-matrix.rs"]
+mod the_k_weakest_rows_in_a_matrix;
 #[path = "two-city-scheduling.rs"]
 mod two_city_scheduling;
 #[path = "valid-parentheses.rs"]
