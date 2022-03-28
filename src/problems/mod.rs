@@ -40,6 +40,8 @@ mod remove_duplicates_from_sorted_array_ii;
 mod remove_k_digits;
 #[path = "search-a-2d-matrix.rs"]
 mod search_a_2d_matrix;
+#[path = "search-in-rotated-sorted-array-ii.rs"]
+mod search_in_rotated_sorted_array_ii;
 #[path = "simplify-path.rs"]
 mod simplify_path;
 #[path = "single-number.rs"]
