@@ -12,6 +12,8 @@ mod combination_sum;
 mod contiguous_array;
 #[path = "excel-sheet-column-number.rs"]
 mod excel_sheet_column_number;
+#[path = "find-the-duplicate-number.rs"]
+mod find_the_duplicate_number;
 #[path = "insert-delete-getrandom-o1.rs"]
 mod insert_delete_getrandom_o1;
 #[path = "k-diff-pairs-in-an-array.rs"]

@@ -51,6 +51,7 @@ struct Solution {}
 // @leetup=inject:before_code_ex
 
 // @leetup=code
+use std::cmp::Ordering;
 
 impl Solution {
     // Assumes sorted values from nums[i] up to nums[j]
@@ -60,12 +61,10 @@ impl Solution {
         }
         while i < j {
             let pivot = (j + i) / 2;
-            if nums[pivot] == target {
-                return true;
-            } else if nums[pivot] < target {
-                i = pivot + 1;
-            } else {
-                j = pivot;
+            match nums[pivot].cmp(&target) {
+                Ordering::Greater => j = pivot,
+                Ordering::Less => i = pivot + 1,
+                Ordering::Equal => return true,
             }
         }
         nums[i] == target
