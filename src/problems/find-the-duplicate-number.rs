@@ -115,5 +115,3 @@ mod tests {
     }
 }
 // @leetup=inject:after_code
-
-use crate::util::linked_list::to_list;
