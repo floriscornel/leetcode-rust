@@ -64,6 +64,8 @@ mod swap_nodes_in_pairs;
 mod the_k_weakest_rows_in_a_matrix;
 #[path = "two-city-scheduling.rs"]
 mod two_city_scheduling;
+#[path = "valid-palindrome-ii.rs"]
+mod valid_palindrome_ii;
 #[path = "valid-parentheses.rs"]
 mod valid_parentheses;
 #[path = "word-ladder.rs"]
