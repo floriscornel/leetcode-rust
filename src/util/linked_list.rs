@@ -4,7 +4,7 @@
  *
  * Macro Usage: linked![1,4,5]
  */
-#[derive(PartialEq, Eq, Debug)]
+#[derive(PartialEq, Eq, Clone, Debug)]
 pub struct ListNode {
     pub val: i32,
     pub next: Option<Box<ListNode>>,
