@@ -26,6 +26,8 @@ mod maximum_depth_of_binary_tree;
 mod minimize_deviation_in_array;
 #[path = "minimum-domino-rotations-for-equal-row.rs"]
 mod minimum_domino_rotations_for_equal_row;
+#[path = "next-permutation.rs"]
+mod next_permutation;
 #[path = "number-of-islands.rs"]
 mod number_of_islands;
 #[path = "partition-labels.rs"]
@@ -68,6 +70,8 @@ mod swapping_nodes_in_a_linked_list;
 mod the_k_weakest_rows_in_a_matrix;
 #[path = "two-city-scheduling.rs"]
 mod two_city_scheduling;
+#[path = "valid-palindrome-ii.rs"]
+mod valid_palindrome_ii;
 #[path = "valid-parentheses.rs"]
 mod valid_parentheses;
 #[path = "word-ladder.rs"]
