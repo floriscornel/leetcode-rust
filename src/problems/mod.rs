@@ -8,6 +8,8 @@ mod boats_to_save_people;
 mod broken_calculator;
 #[path = "combination-sum.rs"]
 mod combination_sum;
+#[path = "container-with-most-water.rs"]
+mod container_with_most_water;
 #[path = "contiguous-array.rs"]
 mod contiguous_array;
 #[path = "excel-sheet-column-number.rs"]
