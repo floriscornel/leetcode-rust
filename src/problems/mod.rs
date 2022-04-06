@@ -70,6 +70,8 @@ mod swap_nodes_in_pairs;
 mod swapping_nodes_in_a_linked_list;
 #[path = "the-k-weakest-rows-in-a-matrix.rs"]
 mod the_k_weakest_rows_in_a_matrix;
+#[path = "3sum-with-multiplicity.rs"]
+mod three_sum_with_multiplicity;
 #[path = "two-city-scheduling.rs"]
 mod two_city_scheduling;
 #[path = "valid-palindrome-ii.rs"]
