@@ -20,6 +20,8 @@ mod find_the_duplicate_number;
 mod insert_delete_getrandom_o1;
 #[path = "k-diff-pairs-in-an-array.rs"]
 mod k_diff_pairs_in_an_array;
+#[path = "kth-largest-element-in-a-stream.rs"]
+mod kth_largest_element_in_a_stream;
 #[path = "majority-element.rs"]
 mod majority_element;
 #[path = "maximum-depth-of-binary-tree.rs"]
