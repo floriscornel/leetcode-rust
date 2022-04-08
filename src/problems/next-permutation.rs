@@ -59,7 +59,7 @@ struct Solution {}
 // @leetup=code
 
 impl Solution {
-    pub fn next_permutation(nums: &mut Vec<i32>) {
+    pub fn next_permutation(nums: &mut [i32]) {
         // Source: https://docs.rs/permutohedron
         // These cases only have 1 permutation each, so we can't do anything.
         if nums.len() < 2 {

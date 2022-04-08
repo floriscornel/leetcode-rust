@@ -40,7 +40,7 @@ struct Solution {}
 // @leetup=code
 
 impl Solution {
-    pub fn reverse_string(s: &mut Vec<char>) {
+    pub fn reverse_string(s: &mut [char]) {
         let len = s.len();
         let end = |index: usize| len - index - 1;
         let mid = s.len() / 2;
