@@ -22,6 +22,8 @@ mod insert_delete_getrandom_o1;
 mod k_diff_pairs_in_an_array;
 #[path = "kth-largest-element-in-a-stream.rs"]
 mod kth_largest_element_in_a_stream;
+#[path = "last-stone-weight.rs"]
+mod last_stone_weight;
 #[path = "majority-element.rs"]
 mod majority_element;
 #[path = "maximum-depth-of-binary-tree.rs"]
