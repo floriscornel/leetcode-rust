@@ -1,5 +1,7 @@
 #[path = "add-digits.rs"]
 mod add_digits;
+#[path = "baseball-game.rs"]
+mod baseball_game;
 #[path = "binary-search.rs"]
 mod binary_search;
 #[path = "boats-to-save-people.rs"]
