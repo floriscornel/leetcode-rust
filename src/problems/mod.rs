@@ -56,6 +56,8 @@ mod reverse_string;
 mod search_a_2d_matrix;
 #[path = "search-in-rotated-sorted-array-ii.rs"]
 mod search_in_rotated_sorted_array_ii;
+#[path = "shift-2d-grid.rs"]
+mod shift_2d_grid;
 #[path = "simplify-path.rs"]
 mod simplify_path;
 #[path = "single-number.rs"]
