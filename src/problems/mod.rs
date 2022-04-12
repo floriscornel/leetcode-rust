@@ -18,6 +18,8 @@ mod contiguous_array;
 mod excel_sheet_column_number;
 #[path = "find-the-duplicate-number.rs"]
 mod find_the_duplicate_number;
+#[path = "game-of-life.rs"]
+mod game_of_life;
 #[path = "insert-delete-getrandom-o1.rs"]
 mod insert_delete_getrandom_o1;
 #[path = "k-diff-pairs-in-an-array.rs"]
