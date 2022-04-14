@@ -68,6 +68,8 @@ mod simplify_path;
 mod single_number;
 #[path = "smallest-string-with-a-given-numeric-value.rs"]
 mod smallest_string_with_a_given_numeric_value;
+#[path = "spiral-matrix-ii.rs"]
+mod spiral_matrix_ii;
 #[path = "split-array-largest-sum.rs"]
 mod split_array_largest_sum;
 #[path = "subarray-sum-equals-k.rs"]
