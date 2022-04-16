@@ -56,6 +56,8 @@ mod remove_k_digits;
 mod reverse_string;
 #[path = "search-a-2d-matrix.rs"]
 mod search_a_2d_matrix;
+#[path = "search-in-a-binary-search-tree.rs"]
+mod search_in_a_binary_search_tree;
 #[path = "search-in-rotated-sorted-array-ii.rs"]
 mod search_in_rotated_sorted_array_ii;
 #[path = "shift-2d-grid.rs"]
