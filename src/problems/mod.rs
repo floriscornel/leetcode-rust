@@ -14,6 +14,8 @@ mod combination_sum;
 mod container_with_most_water;
 #[path = "contiguous-array.rs"]
 mod contiguous_array;
+#[path = "convert-bst-to-greater-tree.rs"]
+mod convert_bst_to_greater_tree;
 #[path = "excel-sheet-column-number.rs"]
 mod excel_sheet_column_number;
 #[path = "find-the-duplicate-number.rs"]
