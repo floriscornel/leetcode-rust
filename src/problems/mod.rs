@@ -16,6 +16,8 @@ mod container_with_most_water;
 mod contiguous_array;
 #[path = "convert-bst-to-greater-tree.rs"]
 mod convert_bst_to_greater_tree;
+#[path = "design-hashmap.rs"]
+mod design_hashmap;
 #[path = "design-hashset.rs"]
 mod design_hashset;
 #[path = "excel-sheet-column-number.rs"]
