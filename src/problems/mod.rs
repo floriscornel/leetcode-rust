@@ -20,6 +20,8 @@ mod convert_bst_to_greater_tree;
 mod design_hashmap;
 #[path = "design-hashset.rs"]
 mod design_hashset;
+#[path = "design-underground-system.rs"]
+mod design_underground_system;
 #[path = "excel-sheet-column-number.rs"]
 mod excel_sheet_column_number;
 #[path = "find-the-duplicate-number.rs"]
