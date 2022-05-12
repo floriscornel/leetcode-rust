@@ -56,6 +56,8 @@ mod number_of_islands;
 mod partition_labels;
 #[path = "permutation-in-string.rs"]
 mod permutation_in_string;
+#[path = "permutations-ii.rs"]
+mod permutations_ii;
 #[path = "remove-covered-intervals.rs"]
 mod remove_covered_intervals;
 #[path = "remove-duplicates-from-sorted-array.rs"]
