@@ -89,14 +89,28 @@ impl Solution {
 // @leetup=inject:after_code
 #[cfg(test)]
 mod tests {
+    use std::collections::HashSet;
+
     use super::Solution;
+
+    fn unordered_eq(output: Vec<Vec<i32>>, expected_output: Vec<Vec<i32>>) {
+        let mut a = HashSet::<Vec<i32>>::new();
+        for x in output {
+            a.insert(x);
+        }
+        let mut b = HashSet::<Vec<i32>>::new();
+        for x in expected_output {
+            b.insert(x);
+        }
+        assert_eq!(a, b);
+    }
 
     #[test]
     fn example_1() {
         let input = vec![1, 1, 2];
         let expected_output = vec![vec![1, 1, 2], vec![1, 2, 1], vec![2, 1, 1]];
         let output = Solution::permute_unique(input);
-        assert_eq!(output, expected_output);
+        unordered_eq(output, expected_output);
     }
 
     #[test]
@@ -111,7 +125,8 @@ mod tests {
             vec![3, 2, 1],
         ];
         let output = Solution::permute_unique(input);
-        assert_eq!(output, expected_output);
+
+        unordered_eq(output, expected_output);
     }
 }
 // @leetup=inject:after_code
