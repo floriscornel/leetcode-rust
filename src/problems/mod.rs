@@ -78,6 +78,8 @@ mod search_in_a_binary_search_tree;
 mod search_in_rotated_sorted_array_ii;
 #[path = "shift-2d-grid.rs"]
 mod shift_2d_grid;
+#[path = "shortest-path-in-binary-matrix.rs"]
+mod shortest_path_in_binary_matrix;
 #[path = "simplify-path.rs"]
 mod simplify_path;
 #[path = "single-number.rs"]
