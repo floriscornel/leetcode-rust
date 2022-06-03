@@ -38,6 +38,7 @@ This is the configuration file that I am using (`~/.leetup/config.json`), the `w
                 "#[cfg(test)]",
                 "mod tests {",
                 "    use super::Solution;",
+                "    ",
                 "    #[test]",
                 "    fn example_1() {",
                 "        ",
