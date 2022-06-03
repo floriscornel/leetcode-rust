@@ -60,6 +60,8 @@ mod partition_labels;
 mod permutation_in_string;
 #[path = "permutations-ii.rs"]
 mod permutations_ii;
+#[path = "range-sum-query-2d-immutable.rs"]
+mod range_sum_query_2d_immutable;
 #[path = "remove-covered-intervals.rs"]
 mod remove_covered_intervals;
 #[path = "remove-duplicates-from-sorted-array.rs"]
