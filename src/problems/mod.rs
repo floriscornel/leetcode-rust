@@ -50,6 +50,8 @@ mod maximum_depth_of_binary_tree;
 mod minimize_deviation_in_array;
 #[path = "minimum-domino-rotations-for-equal-row.rs"]
 mod minimum_domino_rotations_for_equal_row;
+#[path = "n-queens-ii.rs"]
+mod n_queens_ii;
 #[path = "next-permutation.rs"]
 mod next_permutation;
 #[path = "number-of-islands.rs"]
