@@ -66,7 +66,7 @@ impl Solution {
     pub fn total_n_queens(n: i32) -> i32 {
         let mut count = 0;
         let done = i64::pow(2, n as u32) - 1;
-        let inner_recurse = Solution::inner_recurse(0, 0, 0, done, &mut count);
+        Solution::inner_recurse(0, 0, 0, done, &mut count);
         count
     }
 }

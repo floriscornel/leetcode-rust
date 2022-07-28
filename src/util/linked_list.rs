@@ -30,6 +30,6 @@ pub fn to_list(vec: Vec<i32>) -> Option<Box<ListNode>> {
 
 #[macro_export]
 macro_rules! linked {
-    ($($e:expr),*) => {crate::util::linked_list::to_list(vec![$($e.to_owned()), *])};
-    ($($e:expr,)*) => {crate::util::linked_list::to_list(vec![$($e.to_owned()), *])};
+    ($($e:expr),*) => {$crate::util::linked_list::to_list(vec![$($e.to_owned()), *])};
+    ($($e:expr,)*) => {$crate::util::linked_list::to_list(vec![$($e.to_owned()), *])};
 }
