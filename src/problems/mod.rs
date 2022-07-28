@@ -118,6 +118,8 @@ mod triangle;
 mod trim_a_binary_search_tree;
 #[path = "two-city-scheduling.rs"]
 mod two_city_scheduling;
+#[path = "valid-anagram.rs"]
+mod valid_anagram;
 #[path = "valid-palindrome-ii.rs"]
 mod valid_palindrome_ii;
 #[path = "valid-parentheses.rs"]
