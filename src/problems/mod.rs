@@ -8,6 +8,8 @@ mod binary_search;
 mod boats_to_save_people;
 #[path = "broken-calculator.rs"]
 mod broken_calculator;
+#[path = "check-if-the-sentence-is-pangram.rs"]
+mod check_if_the_sentence_is_pangram;
 #[path = "combination-sum.rs"]
 mod combination_sum;
 #[path = "container-with-most-water.rs"]
