@@ -18,6 +18,8 @@ mod container_with_most_water;
 mod contiguous_array;
 #[path = "convert-bst-to-greater-tree.rs"]
 mod convert_bst_to_greater_tree;
+#[path = "count-and-say.rs"]
+mod count_and_say;
 #[path = "deepest-leaves-sum.rs"]
 mod deepest_leaves_sum;
 #[path = "design-hashmap.rs"]
