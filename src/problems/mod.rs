@@ -116,6 +116,8 @@ mod the_k_weakest_rows_in_a_matrix;
 mod three_sum_with_multiplicity;
 #[path = "top-k-frequent-elements.rs"]
 mod top_k_frequent_elements;
+#[path = "top-k-frequent-words.rs"]
+mod top_k_frequent_words;
 #[path = "triangle.rs"]
 mod triangle;
 #[path = "trim-a-binary-search-tree.rs"]
