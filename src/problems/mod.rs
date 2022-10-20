@@ -8,6 +8,8 @@ mod binary_search;
 mod boats_to_save_people;
 #[path = "broken-calculator.rs"]
 mod broken_calculator;
+#[path = "check-if-the-sentence-is-pangram.rs"]
+mod check_if_the_sentence_is_pangram;
 #[path = "combination-sum.rs"]
 mod combination_sum;
 #[path = "container-with-most-water.rs"]
@@ -16,6 +18,8 @@ mod container_with_most_water;
 mod contiguous_array;
 #[path = "convert-bst-to-greater-tree.rs"]
 mod convert_bst_to_greater_tree;
+#[path = "count-and-say.rs"]
+mod count_and_say;
 #[path = "deepest-leaves-sum.rs"]
 mod deepest_leaves_sum;
 #[path = "design-hashmap.rs"]
@@ -34,6 +38,8 @@ mod game_of_life;
 mod increasing_order_search_tree;
 #[path = "insert-delete-getrandom-o1.rs"]
 mod insert_delete_getrandom_o1;
+#[path = "integer-to-roman.rs"]
+mod integer_to_roman;
 #[path = "k-diff-pairs-in-an-array.rs"]
 mod k_diff_pairs_in_an_array;
 #[path = "kth-largest-element-in-a-stream.rs"]
@@ -114,6 +120,8 @@ mod the_k_weakest_rows_in_a_matrix;
 mod three_sum_with_multiplicity;
 #[path = "top-k-frequent-elements.rs"]
 mod top_k_frequent_elements;
+#[path = "top-k-frequent-words.rs"]
+mod top_k_frequent_words;
 #[path = "triangle.rs"]
 mod triangle;
 #[path = "trim-a-binary-search-tree.rs"]
