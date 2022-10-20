@@ -38,6 +38,8 @@ mod game_of_life;
 mod increasing_order_search_tree;
 #[path = "insert-delete-getrandom-o1.rs"]
 mod insert_delete_getrandom_o1;
+#[path = "integer-to-roman.rs"]
+mod integer_to_roman;
 #[path = "k-diff-pairs-in-an-array.rs"]
 mod k_diff_pairs_in_an_array;
 #[path = "kth-largest-element-in-a-stream.rs"]
