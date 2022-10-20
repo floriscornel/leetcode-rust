@@ -52,6 +52,8 @@ mod letter_combinations_of_a_phone_number;
 mod majority_element;
 #[path = "maximum-depth-of-binary-tree.rs"]
 mod maximum_depth_of_binary_tree;
+#[path = "maximum-xor-for-each-query.rs"]
+mod maximum_xor_for_each_query;
 #[path = "minimize-deviation-in-array.rs"]
 mod minimize_deviation_in_array;
 #[path = "minimum-domino-rotations-for-equal-row.rs"]
