@@ -18,6 +18,8 @@ mod container_with_most_water;
 mod contains_duplicate;
 #[path = "contains-duplicate-ii.rs"]
 mod contains_duplicate_ii;
+#[path = "contains-duplicate-iii.rs"]
+mod contains_duplicate_iii;
 #[path = "contiguous-array.rs"]
 mod contiguous_array;
 #[path = "convert-bst-to-greater-tree.rs"]
