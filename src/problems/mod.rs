@@ -14,6 +14,10 @@ mod check_if_the_sentence_is_pangram;
 mod combination_sum;
 #[path = "container-with-most-water.rs"]
 mod container_with_most_water;
+#[path = "contains-duplicate.rs"]
+mod contains_duplicate;
+#[path = "contains-duplicate-ii.rs"]
+mod contains_duplicate_ii;
 #[path = "contiguous-array.rs"]
 mod contiguous_array;
 #[path = "convert-bst-to-greater-tree.rs"]
