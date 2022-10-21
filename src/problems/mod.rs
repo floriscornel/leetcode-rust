@@ -56,6 +56,8 @@ mod letter_combinations_of_a_phone_number;
 mod majority_element;
 #[path = "maximum-depth-of-binary-tree.rs"]
 mod maximum_depth_of_binary_tree;
+#[path = "maximum-xor-for-each-query.rs"]
+mod maximum_xor_for_each_query;
 #[path = "minimize-deviation-in-array.rs"]
 mod minimize_deviation_in_array;
 #[path = "minimum-domino-rotations-for-equal-row.rs"]
@@ -74,6 +76,8 @@ mod partitioning_into_minimum_number_of_deci_binary_numbers;
 mod permutation_in_string;
 #[path = "permutations-ii.rs"]
 mod permutations_ii;
+#[path = "power-of-three.rs"]
+mod power_of_three;
 #[path = "range-sum-query-2d-immutable.rs"]
 mod range_sum_query_2d_immutable;
 #[path = "remove-covered-intervals.rs"]
