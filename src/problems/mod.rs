@@ -66,6 +66,8 @@ mod minimize_deviation_in_array;
 mod minimum_domino_rotations_for_equal_row;
 #[path = "minimum-window-substring.rs"]
 mod minimum_window_substring;
+#[path = "missing-number.rs"]
+mod missing_number;
 #[path = "n-queens-ii.rs"]
 mod n_queens_ii;
 #[path = "next-permutation.rs"]
