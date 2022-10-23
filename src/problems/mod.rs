@@ -122,6 +122,8 @@ mod split_array_largest_sum;
 mod subarray_sum_equals_k;
 #[path = "subsets.rs"]
 mod subsets;
+#[path = "sudoku-solver.rs"]
+mod sudoku_solver;
 #[path = "summary-ranges.rs"]
 mod summary_ranges;
 #[path = "swap-nodes-in-pairs.rs"]
