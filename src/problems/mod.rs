@@ -100,6 +100,8 @@ mod search_a_2d_matrix;
 mod search_in_a_binary_search_tree;
 #[path = "search-in-rotated-sorted-array-ii.rs"]
 mod search_in_rotated_sorted_array_ii;
+#[path = "set-mismatch.rs"]
+mod set_mismatch;
 #[path = "shift-2d-grid.rs"]
 mod shift_2d_grid;
 #[path = "shortest-path-in-binary-matrix.rs"]
