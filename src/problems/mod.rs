@@ -58,6 +58,8 @@ mod letter_combinations_of_a_phone_number;
 mod majority_element;
 #[path = "maximum-depth-of-binary-tree.rs"]
 mod maximum_depth_of_binary_tree;
+#[path = "maximum-length-of-a-concatenated-string-with-unique-characters.rs"]
+mod maximum_length_of_a_concatenated_string_with_unique_characters;
 #[path = "maximum-xor-for-each-query.rs"]
 mod maximum_xor_for_each_query;
 #[path = "minimize-deviation-in-array.rs"]
