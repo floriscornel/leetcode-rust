@@ -10,6 +10,8 @@ mod boats_to_save_people;
 mod broken_calculator;
 #[path = "check-if-the-sentence-is-pangram.rs"]
 mod check_if_the_sentence_is_pangram;
+#[path = "check-if-two-string-arrays-are-equivalent.rs"]
+mod check_if_two_string_arrays_are_equivalent;
 #[path = "combination-sum.rs"]
 mod combination_sum;
 #[path = "container-with-most-water.rs"]
