@@ -24,6 +24,8 @@ mod contains_duplicate_ii;
 mod contains_duplicate_iii;
 #[path = "contiguous-array.rs"]
 mod contiguous_array;
+#[path = "continuous-subarray-sum.rs"]
+mod continuous_subarray_sum;
 #[path = "convert-bst-to-greater-tree.rs"]
 mod convert_bst_to_greater_tree;
 #[path = "count-and-say.rs"]
