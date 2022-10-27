@@ -44,6 +44,8 @@ mod excel_sheet_column_number;
 mod find_the_duplicate_number;
 #[path = "game-of-life.rs"]
 mod game_of_life;
+#[path = "image-overlap.rs"]
+mod image_overlap;
 #[path = "increasing-order-search-tree.rs"]
 mod increasing_order_search_tree;
 #[path = "insert-delete-getrandom-o1.rs"]
