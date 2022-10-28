@@ -44,22 +44,16 @@ struct Solution {}
 use std::collections::HashMap;
 
 impl Solution {
-    pub fn make_hist(str: &String) -> [usize; 26] {
-        let mut hist = [0; 26];
-        for char in str.as_bytes() {
-            hist[(*char - b'a') as usize] += 1;
-        }
-        hist
-    }
-
     pub fn group_anagrams(strs: Vec<String>) -> Vec<Vec<String>> {
-        let mut map = HashMap::<[usize; 26], Vec<String>>::new();
+        let mut map = HashMap::<[u8; 26], Vec<String>>::new();
         for str in strs {
-            let hist = Solution::make_hist(&str);
-            let entry = map.entry(hist).or_insert(Vec::new());
-            entry.push(str)
+            let mut hist = [0; 26];
+            for char in str.as_bytes() {
+                hist[(*char - b'a') as usize] += 1;
+            }
+            map.entry(hist).or_insert(Vec::new()).push(str);
         }
-        map.into_iter().map(|(_hist, vec)| vec).collect()
+        map.into_values().collect()
     }
 }
 // @leetup=code
