@@ -38,6 +38,8 @@ mod design_hashmap;
 mod design_hashset;
 #[path = "design-underground-system.rs"]
 mod design_underground_system;
+#[path = "earliest-possible-day-of-full-bloom.rs"]
+mod earliest_possible_day_of_full_bloom;
 #[path = "excel-sheet-column-number.rs"]
 mod excel_sheet_column_number;
 #[path = "find-the-duplicate-number.rs"]
