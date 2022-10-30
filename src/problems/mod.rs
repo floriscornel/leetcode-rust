@@ -118,6 +118,8 @@ mod search_in_rotated_sorted_array_ii;
 mod set_mismatch;
 #[path = "shift-2d-grid.rs"]
 mod shift_2d_grid;
+#[path = "shortest-path-in-a-grid-with-obstacles-elimination.rs"]
+mod shortest_path_in_a_grid_with_obstacles_elimination;
 #[path = "shortest-path-in-binary-matrix.rs"]
 mod shortest_path_in_binary_matrix;
 #[path = "simplify-path.rs"]
