@@ -46,6 +46,8 @@ mod excel_sheet_column_number;
 mod find_the_duplicate_number;
 #[path = "game-of-life.rs"]
 mod game_of_life;
+#[path = "generate-parentheses.rs"]
+mod generate_parentheses;
 #[path = "group-anagrams.rs"]
 mod group_anagrams;
 #[path = "image-overlap.rs"]
