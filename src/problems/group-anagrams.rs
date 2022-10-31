@@ -64,25 +64,25 @@ mod tests {
     use super::Solution;
 
     // Note: Order of hashmap changes.
-    // TODO: write test case that supports all orders
-    // #[test]
-    // fn example_1() {
-    //     assert_eq!(
-    //         Solution::group_anagrams(vec![
-    //             "eat".to_owned(),
-    //             "tea".to_owned(),
-    //             "tan".to_owned(),
-    //             "ate".to_owned(),
-    //             "nat".to_owned(),
-    //             "bat".to_owned()
-    //         ]),
-    //         vec![
-    //             vec!["tan".to_owned(), "nat".to_owned()],
-    //             vec!["eat".to_owned(), "tea".to_owned(), "ate".to_owned()],
-    //             vec!["bat".to_owned()],
-    //         ]
-    //     )
-    // }
+    #[test]
+    fn example_1() {
+        let mut res = Solution::group_anagrams(vec![
+            "eat".to_owned(),
+            "tea".to_owned(),
+            "tan".to_owned(),
+            "ate".to_owned(),
+            "nat".to_owned(),
+            "bat".to_owned(),
+        ]);
+        let mut expected = vec![
+            vec!["tan".to_owned(), "nat".to_owned()],
+            vec!["eat".to_owned(), "tea".to_owned(), "ate".to_owned()],
+            vec!["bat".to_owned()],
+        ];
+        res.sort_unstable();
+        expected.sort_unstable();
+        assert_eq!(res, expected)
+    }
 
     #[test]
     fn example_2() {

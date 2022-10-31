@@ -150,6 +150,8 @@ mod swapping_nodes_in_a_linked_list;
 mod the_k_weakest_rows_in_a_matrix;
 #[path = "3sum-with-multiplicity.rs"]
 mod three_sum_with_multiplicity;
+#[path = "toeplitz-matrix.rs"]
+mod toeplitz_matrix;
 #[path = "top-k-frequent-elements.rs"]
 mod top_k_frequent_elements;
 #[path = "top-k-frequent-words.rs"]

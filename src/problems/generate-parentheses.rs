@@ -59,16 +59,17 @@ mod tests {
 
     #[test]
     fn example_1() {
-        assert_eq!(
-            Solution::generate_parenthesis(3),
-            vec![
-                "((()))".to_owned(),
-                "(()())".to_owned(),
-                "(())()".to_owned(),
-                "()(())".to_owned(),
-                "()()()".to_owned()
-            ]
-        );
+        let mut res = Solution::generate_parenthesis(3);
+        let mut expected = vec![
+            "((()))".to_owned(),
+            "(()())".to_owned(),
+            "(())()".to_owned(),
+            "()(())".to_owned(),
+            "()()()".to_owned(),
+        ];
+        res.sort_unstable();
+        expected.sort_unstable();
+        assert_eq!(res, expected);
     }
 
     #[test]
