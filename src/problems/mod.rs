@@ -158,6 +158,8 @@ mod toeplitz_matrix;
 mod top_k_frequent_elements;
 #[path = "top-k-frequent-words.rs"]
 mod top_k_frequent_words;
+#[path = "trapping-rain-water.rs"]
+mod trapping_rain_water;
 #[path = "triangle.rs"]
 mod triangle;
 #[path = "trim-a-binary-search-tree.rs"]
