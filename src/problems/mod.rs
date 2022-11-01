@@ -168,5 +168,7 @@ mod valid_anagram;
 mod valid_palindrome_ii;
 #[path = "valid-parentheses.rs"]
 mod valid_parentheses;
+#[path = "where-will-the-ball-fall.rs"]
+mod where_will_the_ball_fall;
 #[path = "word-ladder.rs"]
 mod word_ladder;
