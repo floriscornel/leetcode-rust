@@ -174,5 +174,7 @@ mod valid_palindrome_ii;
 mod valid_parentheses;
 #[path = "where-will-the-ball-fall.rs"]
 mod where_will_the_ball_fall;
+#[path = "wildcard-matching.rs"]
+mod wildcard_matching;
 #[path = "word-ladder.rs"]
 mod word_ladder;
