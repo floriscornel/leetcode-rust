@@ -78,36 +78,25 @@ enum Direction {
     Wall,
 }
 
-impl Direction {
-    fn from_i32(value: i32) -> Direction {
-        match value {
-            1 => Right,
-            -1 => Left,
-            _ => panic!("Unknown value."),
-        }
-    }
-}
-
 impl Solution {
-    pub fn find_ending(grid: &[Vec<i32>], row: usize, column: i32) -> i32 {
+    pub fn find_ending(grid: &[Vec<i32>], row: usize, col: i32) -> i32 {
         let (m, n) = (grid.len(), grid[0].len());
         if row == m {
-            return column;
+            return col;
         }
         let direction = |i| {
             if i < 0 || i >= n as i32 {
                 Wall
+            } else if grid[row][i as usize] == 1 {
+                Right
             } else {
-                Direction::from_i32(grid[row][i as usize])
+                Left
             }
         };
-        match (
-            direction(column - 1),
-            direction(column),
-            direction(column + 1),
-        ) {
-            (Left, Left, _) => Self::find_ending(grid, row + 1, column - 1),
-            (_, Right, Right) => Self::find_ending(grid, row + 1, column + 1),
+        let (left, middle, right) = (direction(col - 1), direction(col), direction(col + 1));
+        match (left, middle, right) {
+            (Left, Left, _) => Self::find_ending(grid, row + 1, col - 1),
+            (_, Right, Right) => Self::find_ending(grid, row + 1, col + 1),
             _ => -1,
         }
     }
