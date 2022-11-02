@@ -78,6 +78,8 @@ mod maximum_xor_for_each_query;
 mod minimize_deviation_in_array;
 #[path = "minimum-domino-rotations-for-equal-row.rs"]
 mod minimum_domino_rotations_for_equal_row;
+#[path = "minimum-genetic-mutation.rs"]
+mod minimum_genetic_mutation;
 #[path = "minimum-window-substring.rs"]
 mod minimum_window_substring;
 #[path = "missing-number.rs"]
