@@ -136,6 +136,8 @@ mod smallest_string_with_a_given_numeric_value;
 mod spiral_matrix_ii;
 #[path = "split-array-largest-sum.rs"]
 mod split_array_largest_sum;
+#[path = "string-compression.rs"]
+mod string_compression;
 #[path = "subarray-sum-equals-k.rs"]
 mod subarray_sum_equals_k;
 #[path = "subsets.rs"]
