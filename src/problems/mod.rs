@@ -66,6 +66,8 @@ mod kth_largest_element_in_a_stream;
 mod last_stone_weight;
 #[path = "letter-combinations-of-a-phone-number.rs"]
 mod letter_combinations_of_a_phone_number;
+#[path = "longest-palindrome-by-concatenating-two-letter-words.rs"]
+mod longest_palindrome_by_concatenating_two_letter_words;
 #[path = "majority-element.rs"]
 mod majority_element;
 #[path = "maximum-depth-of-binary-tree.rs"]
