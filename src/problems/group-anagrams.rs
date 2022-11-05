@@ -51,7 +51,7 @@ impl Solution {
             for char in str.as_bytes() {
                 hist[(*char - b'a') as usize] += 1;
             }
-            map.entry(hist).or_insert(Vec::new()).push(str);
+            map.entry(hist).or_default().push(str);
         }
         map.into_values().collect()
     }
