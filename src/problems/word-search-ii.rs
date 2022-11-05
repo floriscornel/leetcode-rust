@@ -174,6 +174,8 @@ impl Solution {
 // @leetup=inject:after_code
 #[cfg(test)]
 mod tests {
+    use std::collections::HashSet;
+
     use super::Solution;
 
     #[test]
@@ -190,24 +192,29 @@ mod tests {
             "eat".to_owned(),
             "rain".to_owned(),
         ];
-        let output = vec!["eat".to_owned(), "oath".to_owned()];
-        assert_eq!(Solution::find_words(board, words), output)
+        let output: HashSet<String> = vec!["eat".to_owned(), "oath".to_owned()]
+            .into_iter()
+            .collect();
+        let answer: HashSet<String> = Solution::find_words(board, words).into_iter().collect();
+        assert_eq!(answer, output)
     }
 
     #[test]
     fn example_2() {
         let board = vec![vec!['a', 'b'], vec!['c', 'd']];
         let words = vec!["abcb".to_owned()];
-        let output: Vec<String> = vec![];
-        assert_eq!(Solution::find_words(board, words), output)
+        let output: HashSet<String> = vec![].into_iter().collect();
+        let answer: HashSet<String> = Solution::find_words(board, words).into_iter().collect();
+        assert_eq!(answer, output)
     }
 
     #[test]
     fn example_3() {
         let board = vec![vec!['a'], vec!['a']];
         let words = vec!["aaa".to_owned()];
-        let output: Vec<String> = vec![];
-        assert_eq!(Solution::find_words(board, words), output)
+        let output: HashSet<String> = vec![].into_iter().collect();
+        let answer: HashSet<String> = Solution::find_words(board, words).into_iter().collect();
+        assert_eq!(answer, output)
     }
 
     #[test]
@@ -238,8 +245,22 @@ mod tests {
             "aaaaaaaaa".to_owned(),
             "aaaaaaaaaa".to_owned(),
         ];
-        let output: Vec<String> = vec![];
-        assert_eq!(Solution::find_words(board, words), output)
+        let output: HashSet<String> = vec![
+            "a".to_owned(),
+            "aa".to_owned(),
+            "aaa".to_owned(),
+            "aaaa".to_owned(),
+            "aaaaa".to_owned(),
+            "aaaaaa".to_owned(),
+            "aaaaaaa".to_owned(),
+            "aaaaaaaa".to_owned(),
+            "aaaaaaaaa".to_owned(),
+            "aaaaaaaaaa".to_owned(),
+        ]
+        .into_iter()
+        .collect();
+        let answer: HashSet<String> = Solution::find_words(board, words).into_iter().collect();
+        assert_eq!(answer, output)
     }
 }
 // @leetup=inject:after_code
