@@ -92,6 +92,8 @@ mod n_queens_ii;
 mod next_permutation;
 #[path = "number-of-islands.rs"]
 mod number_of_islands;
+#[path = "orderly-queue.rs"]
+mod orderly_queue;
 #[path = "partition-labels.rs"]
 mod partition_labels;
 #[path = "partitioning-into-minimum-number-of-deci-binary-numbers.rs"]
