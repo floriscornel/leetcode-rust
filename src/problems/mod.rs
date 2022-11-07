@@ -70,6 +70,8 @@ mod letter_combinations_of_a_phone_number;
 mod longest_palindrome_by_concatenating_two_letter_words;
 #[path = "majority-element.rs"]
 mod majority_element;
+#[path = "maximum-69-number.rs"]
+mod maximum_69_number;
 #[path = "maximum-depth-of-binary-tree.rs"]
 mod maximum_depth_of_binary_tree;
 #[path = "maximum-length-of-a-concatenated-string-with-unique-characters.rs"]
