@@ -96,6 +96,8 @@ mod n_queens_ii;
 mod next_permutation;
 #[path = "number-of-islands.rs"]
 mod number_of_islands;
+#[path = "online-stock-span.rs"]
+mod online_stock_span;
 #[path = "orderly-queue.rs"]
 mod orderly_queue;
 #[path = "partition-labels.rs"]
