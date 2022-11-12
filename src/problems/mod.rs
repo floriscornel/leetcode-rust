@@ -42,6 +42,8 @@ mod design_underground_system;
 mod earliest_possible_day_of_full_bloom;
 #[path = "excel-sheet-column-number.rs"]
 mod excel_sheet_column_number;
+#[path = "find-median-from-data-stream.rs"]
+mod find_median_from_data_stream;
 #[path = "find-the-duplicate-number.rs"]
 mod find_the_duplicate_number;
 #[path = "game-of-life.rs"]
