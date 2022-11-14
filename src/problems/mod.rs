@@ -92,6 +92,8 @@ mod minimum_genetic_mutation;
 mod minimum_window_substring;
 #[path = "missing-number.rs"]
 mod missing_number;
+#[path = "most-stones-removed-with-same-row-or-column.rs"]
+mod most_stones_removed_with_same_row_or_column;
 #[path = "n-queens-ii.rs"]
 mod n_queens_ii;
 #[path = "next-permutation.rs"]
