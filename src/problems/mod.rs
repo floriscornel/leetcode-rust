@@ -30,6 +30,8 @@ mod continuous_subarray_sum;
 mod convert_bst_to_greater_tree;
 #[path = "count-and-say.rs"]
 mod count_and_say;
+#[path = "count-complete-tree-nodes.rs"]
+mod count_complete_tree_nodes;
 #[path = "deepest-leaves-sum.rs"]
 mod deepest_leaves_sum;
 #[path = "design-hashmap.rs"]
