@@ -118,6 +118,8 @@ mod permutations_ii;
 mod power_of_three;
 #[path = "range-sum-query-2d-immutable.rs"]
 mod range_sum_query_2d_immutable;
+#[path = "rectangle-area.rs"]
+mod rectangle_area;
 #[path = "remove-all-adjacent-duplicates-in-string.rs"]
 mod remove_all_adjacent_duplicates_in_string;
 #[path = "remove-covered-intervals.rs"]
