@@ -2,6 +2,8 @@
 mod add_digits;
 #[path = "baseball-game.rs"]
 mod baseball_game;
+#[path = "basic-calculator.rs"]
+mod basic_calculator;
 #[path = "binary-search.rs"]
 mod binary_search;
 #[path = "boats-to-save-people.rs"]
@@ -42,6 +44,8 @@ mod design_hashset;
 mod design_underground_system;
 #[path = "earliest-possible-day-of-full-bloom.rs"]
 mod earliest_possible_day_of_full_bloom;
+#[path = "erect-the-fence.rs"]
+mod erect_the_fence;
 #[path = "excel-sheet-column-number.rs"]
 mod excel_sheet_column_number;
 #[path = "find-median-from-data-stream.rs"]
