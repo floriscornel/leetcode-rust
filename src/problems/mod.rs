@@ -102,6 +102,8 @@ mod missing_number;
 mod most_stones_removed_with_same_row_or_column;
 #[path = "n-queens-ii.rs"]
 mod n_queens_ii;
+#[path = "nearest-exit-from-entrance-in-maze.rs"]
+mod nearest_exit_from_entrance_in_maze;
 #[path = "next-permutation.rs"]
 mod next_permutation;
 #[path = "number-of-islands.rs"]
