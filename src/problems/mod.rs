@@ -116,6 +116,8 @@ mod orderly_queue;
 mod partition_labels;
 #[path = "partitioning-into-minimum-number-of-deci-binary-numbers.rs"]
 mod partitioning_into_minimum_number_of_deci_binary_numbers;
+#[path = "perfect-squares.rs"]
+mod perfect_squares;
 #[path = "permutation-in-string.rs"]
 mod permutation_in_string;
 #[path = "permutations-ii.rs"]
