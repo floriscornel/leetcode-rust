@@ -2,6 +2,8 @@
 mod add_digits;
 #[path = "baseball-game.rs"]
 mod baseball_game;
+#[path = "basic-calculator.rs"]
+mod basic_calculator;
 #[path = "binary-search.rs"]
 mod binary_search;
 #[path = "boats-to-save-people.rs"]
@@ -30,6 +32,8 @@ mod continuous_subarray_sum;
 mod convert_bst_to_greater_tree;
 #[path = "count-and-say.rs"]
 mod count_and_say;
+#[path = "count-complete-tree-nodes.rs"]
+mod count_complete_tree_nodes;
 #[path = "deepest-leaves-sum.rs"]
 mod deepest_leaves_sum;
 #[path = "design-hashmap.rs"]
@@ -40,6 +44,8 @@ mod design_hashset;
 mod design_underground_system;
 #[path = "earliest-possible-day-of-full-bloom.rs"]
 mod earliest_possible_day_of_full_bloom;
+#[path = "erect-the-fence.rs"]
+mod erect_the_fence;
 #[path = "excel-sheet-column-number.rs"]
 mod excel_sheet_column_number;
 #[path = "find-median-from-data-stream.rs"]
@@ -92,8 +98,12 @@ mod minimum_genetic_mutation;
 mod minimum_window_substring;
 #[path = "missing-number.rs"]
 mod missing_number;
+#[path = "most-stones-removed-with-same-row-or-column.rs"]
+mod most_stones_removed_with_same_row_or_column;
 #[path = "n-queens-ii.rs"]
 mod n_queens_ii;
+#[path = "nearest-exit-from-entrance-in-maze.rs"]
+mod nearest_exit_from_entrance_in_maze;
 #[path = "next-permutation.rs"]
 mod next_permutation;
 #[path = "number-of-islands.rs"]
@@ -114,6 +124,8 @@ mod permutations_ii;
 mod power_of_three;
 #[path = "range-sum-query-2d-immutable.rs"]
 mod range_sum_query_2d_immutable;
+#[path = "rectangle-area.rs"]
+mod rectangle_area;
 #[path = "remove-all-adjacent-duplicates-in-string.rs"]
 mod remove_all_adjacent_duplicates_in_string;
 #[path = "remove-covered-intervals.rs"]
@@ -188,6 +200,8 @@ mod triangle;
 mod trim_a_binary_search_tree;
 #[path = "two-city-scheduling.rs"]
 mod two_city_scheduling;
+#[path = "ugly-number.rs"]
+mod ugly_number;
 #[path = "valid-anagram.rs"]
 mod valid_anagram;
 #[path = "valid-palindrome-ii.rs"]
