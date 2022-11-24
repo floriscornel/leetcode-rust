@@ -147,7 +147,7 @@ impl Solution {
             None
         }
     }
-    
+
     pub fn find_words(board: Vec<Vec<char>>, words: Vec<String>) -> Vec<String> {
         let (m, n, mut k) = (board.len(), board[0].len(), 0);
         let (mut trie, mut answer) = (TrieStruct::new(), HashSet::<String>::new());
