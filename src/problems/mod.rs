@@ -116,6 +116,8 @@ mod orderly_queue;
 mod partition_labels;
 #[path = "partitioning-into-minimum-number-of-deci-binary-numbers.rs"]
 mod partitioning_into_minimum_number_of_deci_binary_numbers;
+#[path = "perfect-squares.rs"]
+mod perfect_squares;
 #[path = "permutation-in-string.rs"]
 mod permutation_in_string;
 #[path = "permutations-ii.rs"]
@@ -140,6 +142,8 @@ mod remove_k_digits;
 mod reverse_string;
 #[path = "reverse-vowels-of-a-string.rs"]
 mod reverse_vowels_of_a_string;
+#[path = "reverse-words-in-a-string.rs"]
+mod reverse_words_in_a_string;
 #[path = "search-a-2d-matrix.rs"]
 mod search_a_2d_matrix;
 #[path = "search-in-a-binary-search-tree.rs"]
@@ -206,6 +210,8 @@ mod valid_anagram;
 mod valid_palindrome_ii;
 #[path = "valid-parentheses.rs"]
 mod valid_parentheses;
+#[path = "valid-sudoku.rs"]
+mod valid_sudoku;
 #[path = "where-will-the-ball-fall.rs"]
 mod where_will_the_ball_fall;
 #[path = "wildcard-matching.rs"]
