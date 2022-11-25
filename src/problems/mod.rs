@@ -176,6 +176,8 @@ mod subarray_sum_equals_k;
 mod subsets;
 #[path = "sudoku-solver.rs"]
 mod sudoku_solver;
+#[path = "sum-of-subarray-minimums.rs"]
+mod sum_of_subarray_minimums;
 #[path = "summary-ranges.rs"]
 mod summary_ranges;
 #[path = "swap-nodes-in-pairs.rs"]
