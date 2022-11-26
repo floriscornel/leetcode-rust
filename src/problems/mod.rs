@@ -86,6 +86,8 @@ mod maximum_69_number;
 mod maximum_depth_of_binary_tree;
 #[path = "maximum-length-of-a-concatenated-string-with-unique-characters.rs"]
 mod maximum_length_of_a_concatenated_string_with_unique_characters;
+#[path = "maximum-profit-in-job-scheduling.rs"]
+mod maximum_profit_in_job_scheduling;
 #[path = "maximum-xor-for-each-query.rs"]
 mod maximum_xor_for_each_query;
 #[path = "minimize-deviation-in-array.rs"]
