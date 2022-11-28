@@ -1,7 +1,7 @@
 #![allow(dead_code, unused_variables)]
+struct Solution {}
 
 use std::collections::BTreeSet;
-struct Solution {}
 
 impl Solution {
     pub fn find_winners(matches: Vec<Vec<i32>>) -> Vec<Vec<i32>> {
