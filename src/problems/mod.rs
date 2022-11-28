@@ -50,6 +50,8 @@ mod erect_the_fence;
 mod excel_sheet_column_number;
 #[path = "find-median-from-data-stream.rs"]
 mod find_median_from_data_stream;
+#[path = "find-players-with-zero-or-one-losses.rs"]
+mod find_players_with_zero_or_one_losses;
 #[path = "find-the-duplicate-number.rs"]
 mod find_the_duplicate_number;
 #[path = "game-of-life.rs"]
