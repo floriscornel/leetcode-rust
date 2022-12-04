@@ -94,6 +94,8 @@ mod maximum_profit_in_job_scheduling;
 mod maximum_xor_for_each_query;
 #[path = "minimize-deviation-in-array.rs"]
 mod minimize_deviation_in_array;
+#[path = "minimum-average-difference.rs"]
+mod minimum_average_difference;
 #[path = "minimum-domino-rotations-for-equal-row.rs"]
 mod minimum_domino_rotations_for_equal_row;
 #[path = "minimum-genetic-mutation.rs"]
