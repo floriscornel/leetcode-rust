@@ -92,6 +92,8 @@ mod maximum_length_of_a_concatenated_string_with_unique_characters;
 mod maximum_profit_in_job_scheduling;
 #[path = "maximum-xor-for-each-query.rs"]
 mod maximum_xor_for_each_query;
+#[path = "middle-of-the-linked-list.rs"]
+mod middle_of_the_linked_list;
 #[path = "minimize-deviation-in-array.rs"]
 mod minimize_deviation_in_array;
 #[path = "minimum-average-difference.rs"]
