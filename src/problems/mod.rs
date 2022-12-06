@@ -116,6 +116,8 @@ mod nearest_exit_from_entrance_in_maze;
 mod next_permutation;
 #[path = "number-of-islands.rs"]
 mod number_of_islands;
+#[path = "odd-even-linked-list.rs"]
+mod odd_even_linked_list;
 #[path = "online-stock-span.rs"]
 mod online_stock_span;
 #[path = "orderly-queue.rs"]
