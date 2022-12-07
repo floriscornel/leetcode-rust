@@ -134,6 +134,8 @@ mod permutation_in_string;
 mod permutations_ii;
 #[path = "power-of-three.rs"]
 mod power_of_three;
+#[path = "range-sum-of-bst.rs"]
+mod range_sum_of_bst;
 #[path = "range-sum-query-2d-immutable.rs"]
 mod range_sum_query_2d_immutable;
 #[path = "rectangle-area.rs"]
