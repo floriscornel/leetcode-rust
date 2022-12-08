@@ -74,6 +74,8 @@ mod k_diff_pairs_in_an_array;
 mod kth_largest_element_in_a_stream;
 #[path = "last-stone-weight.rs"]
 mod last_stone_weight;
+#[path = "leaf-similar-trees.rs"]
+mod leaf_similar_trees;
 #[path = "letter-combinations-of-a-phone-number.rs"]
 mod letter_combinations_of_a_phone_number;
 #[path = "longest-palindrome-by-concatenating-two-letter-words.rs"]
