@@ -88,6 +88,8 @@ mod make_the_string_great;
 mod maximum_69_number;
 #[path = "maximum-depth-of-binary-tree.rs"]
 mod maximum_depth_of_binary_tree;
+#[path = "maximum-difference-between-node-and-ancestor.rs"]
+mod maximum_difference_between_node_and_ancestor;
 #[path = "maximum-length-of-a-concatenated-string-with-unique-characters.rs"]
 mod maximum_length_of_a_concatenated_string_with_unique_characters;
 #[path = "maximum-profit-in-job-scheduling.rs"]
