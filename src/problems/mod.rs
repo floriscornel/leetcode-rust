@@ -92,6 +92,8 @@ mod maximum_depth_of_binary_tree;
 mod maximum_difference_between_node_and_ancestor;
 #[path = "maximum-length-of-a-concatenated-string-with-unique-characters.rs"]
 mod maximum_length_of_a_concatenated_string_with_unique_characters;
+#[path = "maximum-product-of-splitted-binary-tree.rs"]
+mod maximum_product_of_splitted_binary_tree;
 #[path = "maximum-profit-in-job-scheduling.rs"]
 mod maximum_profit_in_job_scheduling;
 #[path = "maximum-xor-for-each-query.rs"]
