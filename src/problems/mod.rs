@@ -6,6 +6,8 @@ mod baseball_game;
 mod basic_calculator;
 #[path = "binary-search.rs"]
 mod binary_search;
+#[path = "binary-tree-maximum-path-sum.rs"]
+mod binary_tree_maximum_path_sum;
 #[path = "boats-to-save-people.rs"]
 mod boats_to_save_people;
 #[path = "broken-calculator.rs"]
