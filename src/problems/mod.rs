@@ -110,6 +110,8 @@ mod minimize_deviation_in_array;
 mod minimum_average_difference;
 #[path = "minimum-domino-rotations-for-equal-row.rs"]
 mod minimum_domino_rotations_for_equal_row;
+#[path = "minimum-falling-path-sum.rs"]
+mod minimum_falling_path_sum;
 #[path = "minimum-genetic-mutation.rs"]
 mod minimum_genetic_mutation;
 #[path = "minimum-window-substring.rs"]
