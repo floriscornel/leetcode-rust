@@ -64,6 +64,8 @@ mod game_of_life;
 mod generate_parentheses;
 #[path = "group-anagrams.rs"]
 mod group_anagrams;
+#[path = "house-robber.rs"]
+mod house_robber;
 #[path = "image-overlap.rs"]
 mod image_overlap;
 #[path = "increasing-order-search-tree.rs"]
@@ -250,5 +252,3 @@ mod word_ladder;
 mod word_search;
 #[path = "word-search-ii.rs"]
 mod word_search_ii;
-#[path = "house-robber.rs"]
-mod house_robber;
