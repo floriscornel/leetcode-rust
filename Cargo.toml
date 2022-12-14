@@ -1,5 +1,6 @@
 [package]
 name = "leetcode-rust"
+version = "0.1.0"
 description = "Solutions in Rust for LeetCode challenges"
 authors = ["Floris Cornel <floris@cornel.email>"]
 license = "MIT/Apache-2.0"

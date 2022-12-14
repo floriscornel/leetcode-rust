@@ -250,3 +250,5 @@ mod word_ladder;
 mod word_search;
 #[path = "word-search-ii.rs"]
 mod word_search_ii;
+#[path = "house-robber.rs"]
+mod house_robber;
