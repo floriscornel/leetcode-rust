@@ -68,6 +68,8 @@ mod group_anagrams;
 mod house_robber;
 #[path = "image-overlap.rs"]
 mod image_overlap;
+#[path = "implement-queue-using-stacks.rs"]
+mod implement_queue_using_stacks;
 #[path = "increasing-order-search-tree.rs"]
 mod increasing_order_search_tree;
 #[path = "insert-delete-getrandom-o1.rs"]
