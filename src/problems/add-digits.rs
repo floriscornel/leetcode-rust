@@ -43,7 +43,7 @@ impl Solution {
         let mut digits = Vec::new();
         let mut pointer = num;
         while pointer > 0 {
-            digits.push((pointer % 10) as i32);
+            digits.push(pointer % 10);
             pointer /= 10;
         }
         let result = digits.iter().sum();

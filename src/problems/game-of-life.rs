@@ -93,7 +93,7 @@ impl Solution {
         }
 
         for (i, j) in changes {
-            board[i][j] = if board[i][j] == 1 { 0 } else { 1 };
+            board[i][j] = i32::from(board[i][j] != 1);
         }
     }
 
