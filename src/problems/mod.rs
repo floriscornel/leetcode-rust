@@ -90,6 +90,8 @@ mod letter_combinations_of_a_phone_number;
 mod longest_common_subsequence;
 #[path = "longest-palindrome-by-concatenating-two-letter-words.rs"]
 mod longest_palindrome_by_concatenating_two_letter_words;
+#[path = "longest-subsequence-with-limited-sum.rs"]
+mod longest_subsequence_with_limited_sum;
 #[path = "majority-element.rs"]
 mod majority_element;
 #[path = "make-the-string-great.rs"]
