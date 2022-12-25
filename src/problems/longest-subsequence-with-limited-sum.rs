@@ -51,22 +51,15 @@ struct Solution {}
 // @leetup=code
 
 impl Solution {
-    pub fn answer_queries(nums: Vec<i32>, queries: Vec<i32>) -> Vec<i32> {
-        let (n, m) = (nums.len(), queries.len());
+    pub fn answer_queries(mut nums: Vec<i32>, queries: Vec<i32>) -> Vec<i32> {
+        nums.sort_unstable();
+        nums.iter_mut().reduce(|sum, num| {
+            *num += *sum;
+            num
+        });
         queries
             .into_iter()
-            .map(|q| {
-                let mut dp = vec![0; q as usize + 1];
-                for &num in &nums {
-                    if num > q {
-                        continue;
-                    }
-                    for i in (num..=q).rev() {
-                        dp[i as usize] = dp[i as usize].max(dp[(i - num) as usize] + 1);
-                    }
-                }
-                dp[q as usize]
-            })
+            .map(|q| nums.binary_search(&q).map_or_else(|idx| idx, |idx| idx + 1) as i32)
             .collect()
     }
 }
