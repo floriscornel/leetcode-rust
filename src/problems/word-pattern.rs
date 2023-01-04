@@ -49,6 +49,10 @@ impl Solution {
         let mut pattern_to_string = HashMap::<&u8, &str>::new();
         let mut string_to_pattern = HashMap::<&str, &u8>::new();
 
+        if pattern.len() != s.split_whitespace().count() {
+            return false;
+        }
+
         pattern
             .as_bytes()
             .iter()
@@ -96,6 +100,14 @@ mod tests {
     fn example_4() {
         let pattern = "abba".to_string();
         let s = "dog dog dog dog".to_string();
+        let excpected = false;
+        assert_eq!(Solution::word_pattern(pattern, s), excpected);
+    }
+
+    #[test]
+    fn example_5() {
+        let pattern = "aaa".to_string();
+        let s = "aa aa aa aa".to_string();
         let excpected = false;
         assert_eq!(Solution::word_pattern(pattern, s), excpected);
     }
