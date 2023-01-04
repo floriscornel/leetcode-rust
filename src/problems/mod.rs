@@ -260,6 +260,8 @@ mod where_will_the_ball_fall;
 mod wildcard_matching;
 #[path = "word-ladder.rs"]
 mod word_ladder;
+#[path = "word-pattern.rs"]
+mod word_pattern;
 #[path = "word-search.rs"]
 mod word_search;
 #[path = "word-search-ii.rs"]
