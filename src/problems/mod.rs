@@ -124,6 +124,8 @@ mod minimum_domino_rotations_for_equal_row;
 mod minimum_falling_path_sum;
 #[path = "minimum-genetic-mutation.rs"]
 mod minimum_genetic_mutation;
+#[path = "minimum-rounds-to-complete-all-tasks.rs"]
+mod minimum_rounds_to_complete_all_tasks;
 #[path = "minimum-window-substring.rs"]
 mod minimum_window_substring;
 #[path = "missing-number.rs"]
