@@ -54,7 +54,52 @@ struct Solution {}
 // @leetup=code
 
 impl Solution {
-    pub fn oranges_rotting(grid: Vec<Vec<i32>>) -> i32 {}
+    pub fn oranges_rotting(mut grid: Vec<Vec<i32>>) -> i32 {
+        let mut queue = Vec::<(usize, usize)>::new();
+        let mut fresh_count = 0;
+        for (i, col) in grid.iter().enumerate() {
+            for (j, elem) in col.iter().enumerate() {
+                if *elem == 2 {
+                    queue.push((i, j));
+                } else if *elem == 1 {
+                    fresh_count += 1;
+                }
+            }
+        }
+        let mut minutes = 0;
+        while !queue.is_empty() {
+            let mut new_queue = Vec::new();
+            for (i, j) in queue {
+                if i > 0 && grid[i - 1][j] == 1 {
+                    grid[i - 1][j] = 2;
+                    fresh_count -= 1;
+                    new_queue.push((i - 1, j));
+                }
+                if i + 1 < grid.len() && grid[i + 1][j] == 1 {
+                    grid[i + 1][j] = 2;
+                    fresh_count -= 1;
+                    new_queue.push((i + 1, j));
+                }
+                if j > 0 && grid[i][j - 1] == 1 {
+                    grid[i][j - 1] = 2;
+                    fresh_count -= 1;
+                    new_queue.push((i, j - 1));
+                }
+                if j + 1 < grid[i].len() && grid[i][j + 1] == 1 {
+                    grid[i][j + 1] = 2;
+                    fresh_count -= 1;
+                    new_queue.push((i, j + 1));
+                }
+            }
+            queue = new_queue;
+            minutes += 1;
+        }
+        if fresh_count > 0 {
+            -1
+        } else {
+            minutes - 1
+        }
+    }
 }
 // @leetup=code
 
@@ -64,6 +109,15 @@ mod tests {
     use super::Solution;
 
     #[test]
-    fn example_1() {}
+    fn example_1() {
+        let grid = vec![vec![2, 1, 1], vec![1, 1, 0], vec![0, 1, 1]];
+        assert_eq!(Solution::oranges_rotting(grid), 4);
+    }
+
+    #[test]
+    fn example_2() {
+        let grid = vec![vec![2, 1, 1], vec![0, 1, 1], vec![1, 0, 1]];
+        assert_eq!(Solution::oranges_rotting(grid), -1);
+    }
 }
 // @leetup=inject:after_code
