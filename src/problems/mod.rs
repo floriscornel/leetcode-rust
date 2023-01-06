@@ -104,6 +104,8 @@ mod maximum_69_number;
 mod maximum_depth_of_binary_tree;
 #[path = "maximum-difference-between-node-and-ancestor.rs"]
 mod maximum_difference_between_node_and_ancestor;
+#[path = "maximum-ice-cream-bars.rs"]
+mod maximum_ice_cream_bars;
 #[path = "maximum-length-of-a-concatenated-string-with-unique-characters.rs"]
 mod maximum_length_of_a_concatenated_string_with_unique_characters;
 #[path = "maximum-product-of-splitted-binary-tree.rs"]
