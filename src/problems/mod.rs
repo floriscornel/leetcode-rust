@@ -62,6 +62,8 @@ mod find_players_with_zero_or_one_losses;
 mod find_the_duplicate_number;
 #[path = "game-of-life.rs"]
 mod game_of_life;
+#[path = "gas-station.rs"]
+mod gas_station;
 #[path = "generate-parentheses.rs"]
 mod generate_parentheses;
 #[path = "group-anagrams.rs"]
