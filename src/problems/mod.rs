@@ -100,6 +100,8 @@ mod longest_subsequence_with_limited_sum;
 mod majority_element;
 #[path = "make-the-string-great.rs"]
 mod make_the_string_great;
+#[path = "max-points-on-a-line.rs"]
+mod max_points_on_a_line;
 #[path = "maximum-69-number.rs"]
 mod maximum_69_number;
 #[path = "maximum-depth-of-binary-tree.rs"]
