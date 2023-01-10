@@ -190,6 +190,8 @@ mod reverse_vowels_of_a_string;
 mod reverse_words_in_a_string;
 #[path = "rotting-oranges.rs"]
 mod rotting_oranges;
+#[path = "same-tree.rs"]
+mod same_tree;
 #[path = "search-a-2d-matrix.rs"]
 mod search_a_2d_matrix;
 #[path = "search-in-a-binary-search-tree.rs"]
