@@ -182,6 +182,8 @@ mod remove_duplicates_from_sorted_array;
 mod remove_duplicates_from_sorted_array_ii;
 #[path = "remove-k-digits.rs"]
 mod remove_k_digits;
+#[path = "restore-ip-addresses.rs"]
+mod restore_ip_addresses;
 #[path = "reverse-string.rs"]
 mod reverse_string;
 #[path = "reverse-vowels-of-a-string.rs"]
