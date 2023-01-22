@@ -154,6 +154,8 @@ mod odd_even_linked_list;
 mod online_stock_span;
 #[path = "orderly-queue.rs"]
 mod orderly_queue;
+#[path = "palindrome-partitioning.rs"]
+mod palindrome_partitioning;
 #[path = "partition-labels.rs"]
 mod partition_labels;
 #[path = "partitioning-into-minimum-number-of-deci-binary-numbers.rs"]
