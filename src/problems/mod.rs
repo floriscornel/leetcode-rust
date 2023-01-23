@@ -62,6 +62,8 @@ mod find_median_from_data_stream;
 mod find_players_with_zero_or_one_losses;
 #[path = "find-the-duplicate-number.rs"]
 mod find_the_duplicate_number;
+#[path = "find-the-town-judge.rs"]
+mod find_the_town_judge;
 #[path = "game-of-life.rs"]
 mod game_of_life;
 #[path = "gas-station.rs"]
