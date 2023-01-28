@@ -40,6 +40,8 @@ mod convert_bst_to_greater_tree;
 mod count_and_say;
 #[path = "count-complete-tree-nodes.rs"]
 mod count_complete_tree_nodes;
+#[path = "data-stream-as-disjoint-intervals.rs"]
+mod data_stream_as_disjoint_intervals;
 #[path = "deepest-leaves-sum.rs"]
 mod deepest_leaves_sum;
 #[path = "design-hashmap.rs"]
