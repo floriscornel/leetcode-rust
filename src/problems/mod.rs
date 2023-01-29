@@ -96,6 +96,8 @@ mod last_stone_weight;
 mod leaf_similar_trees;
 #[path = "letter-combinations-of-a-phone-number.rs"]
 mod letter_combinations_of_a_phone_number;
+#[path = "lfu-cache.rs"]
+mod lfu_cache;
 #[path = "longest-common-subsequence.rs"]
 mod longest_common_subsequence;
 #[path = "longest-palindrome-by-concatenating-two-letter-words.rs"]
