@@ -108,6 +108,8 @@ mod longest_subsequence_with_limited_sum;
 mod majority_element;
 #[path = "make-the-string-great.rs"]
 mod make_the_string_great;
+#[path = "matrix-diagonal-sum.rs"]
+mod matrix_diagonal_sum;
 #[path = "max-points-on-a-line.rs"]
 mod max_points_on_a_line;
 #[path = "maximum-69-number.rs"]
