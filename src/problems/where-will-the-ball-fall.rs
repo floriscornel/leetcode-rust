@@ -104,7 +104,6 @@ impl Solution {
     pub fn find_ball(grid: Vec<Vec<i32>>) -> Vec<i32> {
         let (m, n) = (grid.len(), grid[0].len());
         (0..n)
-            .into_iter()
             .map(|start| Self::find_ending(&grid, 0, start as i32))
             .collect()
     }
