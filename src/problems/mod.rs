@@ -226,6 +226,8 @@ mod single_number;
 mod smallest_string_with_a_given_numeric_value;
 #[path = "sort-characters-by-frequency.rs"]
 mod sort_characters_by_frequency;
+#[path = "spiral-matrix.rs"]
+mod spiral_matrix;
 #[path = "spiral-matrix-ii.rs"]
 mod spiral_matrix_ii;
 #[path = "split-array-largest-sum.rs"]
