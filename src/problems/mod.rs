@@ -230,6 +230,8 @@ mod sort_characters_by_frequency;
 mod spiral_matrix;
 #[path = "spiral-matrix-ii.rs"]
 mod spiral_matrix_ii;
+#[path = "spiral-matrix-iii.rs"]
+mod spiral_matrix_iii;
 #[path = "split-array-largest-sum.rs"]
 mod split_array_largest_sum;
 #[path = "string-compression.rs"]
