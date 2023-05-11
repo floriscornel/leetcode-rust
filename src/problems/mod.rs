@@ -272,6 +272,8 @@ mod trim_a_binary_search_tree;
 mod two_city_scheduling;
 #[path = "ugly-number.rs"]
 mod ugly_number;
+#[path = "uncrossed-lines.rs"]
+mod uncrossed_lines;
 #[path = "valid-anagram.rs"]
 mod valid_anagram;
 #[path = "valid-palindrome-ii.rs"]
