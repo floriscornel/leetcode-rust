@@ -126,6 +126,8 @@ mod maximum_length_of_a_concatenated_string_with_unique_characters;
 mod maximum_product_of_splitted_binary_tree;
 #[path = "maximum-profit-in-job-scheduling.rs"]
 mod maximum_profit_in_job_scheduling;
+#[path = "maximum-twin-sum-of-a-linked-list.rs"]
+mod maximum_twin_sum_of_a_linked_list;
 #[path = "maximum-xor-for-each-query.rs"]
 mod maximum_xor_for_each_query;
 #[path = "middle-of-the-linked-list.rs"]
